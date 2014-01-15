@@ -2,7 +2,7 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
-public class ImportantTweetModel extends LonelyTweetModel
+public class ImportantTweetModel extends LonelyTweetModel implements HasPriority
 {
 
 	public ImportantTweetModel()
