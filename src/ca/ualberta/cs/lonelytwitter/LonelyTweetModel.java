@@ -55,4 +55,6 @@ public abstract class LonelyTweetModel
 		this.timestamp = new Date();
 	}
 	
+	public abstract Mode Mode();
+	
 }

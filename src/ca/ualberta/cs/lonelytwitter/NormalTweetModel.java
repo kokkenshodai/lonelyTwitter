@@ -23,7 +23,14 @@ public class NormalTweetModel extends LonelyTweetModel
 
 	@Override
 	public void setText(String text)
+
 	{
 		this.text = text;
+	}
+	
+	@Override
+	public Mode Mode()
+	{
+		return Mode.Normal;
 	}
 }
