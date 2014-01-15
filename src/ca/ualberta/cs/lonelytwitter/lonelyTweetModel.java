@@ -42,4 +42,12 @@ public class lonelyTweetModel
 		this.timestamp = timestamp;
 	}
 	
+	public lonelyTweetModel(String text)
+	{
+
+		super();
+		this.text = text;
+		this.timestamp = new Date();
+	}
+	
 }
