@@ -27,7 +27,6 @@ public class ImportantTweetModel extends LonelyTweetModel implements HasPriority
 		this.text = text;
 	}
 	
-	@Override
 	public Mode Mode()
 	{
 		return Mode.Important;

@@ -28,7 +28,6 @@ public class NormalTweetModel extends LonelyTweetModel implements HasPriority
 		this.text = text;
 	}
 	
-	@Override
 	public Mode Mode()
 	{
 		return Mode.Normal;
