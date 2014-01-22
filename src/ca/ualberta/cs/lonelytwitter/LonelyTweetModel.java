@@ -55,4 +55,10 @@ public abstract class LonelyTweetModel
 		this.timestamp = new Date();
 	}
 	
+	@Override
+	public String toString()
+	{
+		return timestamp.toString() + " | " + text;
+	}
+	
 }
